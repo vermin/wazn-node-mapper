@@ -1,4 +1,4 @@
-// Copyright (c) 2019 WAZN Project
+// Copyright (c) 2020 WAZN Project
 // Copyright (c) 2018-2019, Fexra, The TurtleCoin Developers
 //
 // Please see the included LICENSE file for more information.
