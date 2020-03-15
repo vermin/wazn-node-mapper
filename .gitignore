@@ -1,0 +1,6 @@
+cache.sqlite
+cache.sqlite-journal
+/node_modules
+.env
+.env.save
+package-lock.json
