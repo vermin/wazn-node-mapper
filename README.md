@@ -9,7 +9,7 @@ Simple script that grabs all known nodes and its peers from the network, and sto
 
 - Node.Js 8+
 - SQLite 3
-- Cron
+- Cron  
 ![Node.js CI](https://github.com/vermin/wazn-node-mapper/workflows/Node.js%20CI/badge.svg?branch=dev)
 
 ## .env variables
