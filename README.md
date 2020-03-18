@@ -20,7 +20,7 @@ CRON_MAP=1 * * * *
 CRON_LOCATE=0 0 * * *
 ```
 
-## Status:  ![Node.js CI](https://github.com/vermin/wazn-node-mapper/workflows/Node.js%20CI/badge.svg?branch=dev)
+![Node.js CI](https://github.com/vermin/wazn-node-mapper/workflows/Node.js%20CI/badge.svg?branch=dev)
 
 ## License
 
