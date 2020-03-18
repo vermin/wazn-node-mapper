@@ -6,10 +6,11 @@ WAZN Node Mapper
 Simple script that grabs all known nodes and its peers from the network, and stores them in a local db, tracking changes.
 
 ## Requirements
-![Node.js CI](https://github.com/vermin/wazn-node-mapper/workflows/Node.js%20CI/badge.svg?branch=dev)
+
 - Node.Js 8+
 - SQLite 3
 - Cron
+![Node.js CI](https://github.com/vermin/wazn-node-mapper/workflows/Node.js%20CI/badge.svg?branch=dev)
 
 ## .env variables
 
