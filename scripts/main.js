@@ -15,7 +15,7 @@ const network = new Network()
 // look for new nodes and peers every hour
 cron.schedule(process.env.CRON_MAP || '1 * * * *', async () => {
   // insert seed node - it has to start somewhere
-  let seedNode = 'address:port'
+  let seedNode = '155.138.135.129:11787'
   let checkSeed = await db.fetchNodes()
 
   if (checkSeed.length <= 0) {
@@ -56,6 +56,6 @@ cron.schedule(process.env.CRON_LOCATE || '0 0 * * *', async () => {
   oldNodes.map(async node => {
     let nodeGeo = await network.locateNode(node.address)
     await db.updateNodeGeo(node.address, nodeGeo)
-    console.log('located node ' + node.address)
+    console.log('located node' + node.address)
   })
 })
